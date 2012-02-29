@@ -1,0 +1,30 @@
+input[type=checkbox] {
+	border:none;
+	vertical-align:top;
+	margin-right:10px;
+	padding-top:0px;
+	cursor: pointer;	
+	-webkit-appearance:none;	
+	-moz-appearance:none;
+	-o-appearance:none;
+}
+
+input[type=checkbox]:checked {
+	background:url(../images/check.jpg) no-repeat;
+	border:none;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	-o-appearance:none;
+}
+
+.bottomtable{
+	vertical-align:top;
+} 
+
+.bottomtable tr{
+	vertical-align:top;
+} 
+
+.bottomtable tr td{
+	vertical-align:top;
+}   

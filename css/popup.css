@@ -1,0 +1,55 @@
+@import url(./reset.css);
+@import url(./text.css);
+/* ============================ */
+/* ==  Popups                == */
+/* ============================ */
+
+#wrapper {
+	width:850px;
+	overflow: hidden;
+	margin:0 auto;
+}
+
+#popup_header {
+	width:850px;
+	height:78px;
+	background: url(../images/header.png) no-repeat;
+}
+
+#content {
+	padding: 0 40px 0 60px;
+}
+
+span.italic {
+	font-style: italic;
+	
+}
+
+span.purple {
+	color:#b1059d;
+	font-weight: bold;
+}
+
+.left {
+	float:left;
+}
+
+.right {
+	float:right;
+}
+
+
+
+
+label.error { 
+	float: none; 
+	color: red; 
+	padding-left: .5em; 
+	vertical-align: middle; 
+}
+
+#signup_footer {
+	margin-top:30px;
+	width:850px;
+	overflow:hidden;
+} 

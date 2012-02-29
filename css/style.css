@@ -1,0 +1,138 @@
+
+@import url(./reset.css);
+@import url(./layout.css);
+@import url(./text.css);
+/* ========================= */
+/* == Styles              == */
+/* ========================= */
+
+.logo img{
+	padding-top:20px;
+}
+
+#header {
+	background: url(../images/index.png) no-repeat;
+	height:228px;
+	position:relative;
+	z-index:10;
+}
+
+#header .button {
+	height:43px;
+	position:absolute;
+	top:140px;
+	left:550px;
+}
+
+#sidebar {
+	background:#f7e6f5;
+	height:1020px;
+	width:240px;
+	margin-left:25px; 
+	margin-top:-30px;
+	padding-top:40px;
+}
+
+
+#sidebar ul li a {
+	display:block;
+	padding:10px;
+	border-top:4px solid #fff;
+	text-decoration: none;
+	color:#000;
+	font-size:12px;
+	background:url(../images/pdf_icon.gif) no-repeat;
+	background-position: 180px 7px;
+}
+
+#sidebar ul li a:hover {
+	display:block;
+	background:#b1059d url(../images/pdf_icon.gif) no-repeat;
+	background-position: 180px 7px;
+	color:#fff;
+}
+
+#sidebar ul li a.bottom {
+	border-bottom:4px solid #fff;
+}
+
+.bottle {
+	margin-top:60px;
+}
+
+.small_logo {
+	float:right;
+	margin-right:25px;
+} 
+
+.img2 {
+	margin-top:20px;
+}
+
+.space{
+	margin-bottom:25px;
+} 
+
+.list li {          
+	list-style:none; 
+	background:url("../images/bullet.png") no-repeat scroll 0 4px transparent ;
+	padding-left:10px;
+	padding-bottom:15px;
+	/* background-position-y:4px; */
+}
+
+.list li sup {
+	font-size:10px;
+	margin-left:-3px;
+}
+
+#footer {
+	margin-top:20px;
+}
+
+#footer ul {
+	margin-top:50px;
+}
+
+#footer ul li {
+	display:inline;
+}
+
+#footer ul li a {
+	padding: 5px 10px;
+	border-right:1px solid #f4c246;
+	text-decoration: none;
+	color: #666;
+	font-size:10px;
+}
+
+#footer ul li a.first {
+	padding-left:0px;
+}
+
+#footer ul li a.last {
+	border-right: none;
+}
+
+#footer ul li a:hover {
+	text-decoration: underline;
+}
+
+/* FPO */
+.fpoLogo {
+  font-size:60px;
+	font-family:"Arial Black";  
+	position:absolute;
+	color:#333; 
+	top:40px;
+	left:60px;
+}
+
+.fpo {
+	font-size:60px;
+	font-family:"Arial Black";  
+	position:absolute;
+	color:#333; 
+	top:160px;
+	left:30px;
+}

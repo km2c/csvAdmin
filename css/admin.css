@@ -1,0 +1,171 @@
+@import url(./reset.css);
+@import url(./text.css);
+/* ============================ */
+/* ==  Popups                == */
+/* ============================ */
+
+#wrapper {
+	width:850px;
+	overflow: hidden;
+	margin:0 auto;
+}
+
+#popup_header {
+	width:850px;
+	height:78px;
+	background: url(../images/popup_header.jpg) no-repeat;
+}
+
+#content {
+	padding: 0 40px;
+	text-align: center;
+}
+
+
+span.italic {
+	font-style: italic;
+	
+}
+
+span.purple {
+	color:#b1059d;
+	font-weight: bold;
+}
+
+#login {
+	width: 300px;
+	margin:10px auto;
+	background:#eee;
+	border:1px solid #b1059d;
+}
+
+.innerLogin {
+	border:1px solid #fff;
+	padding:10px 40px 20px;
+}
+
+.innerLogin h1 {
+	font-size:24px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom:20px;
+}
+
+.innerLogin h2 { 
+	font-size: 18px;
+	margin:30px 0;
+}
+
+.download {
+	color:#fff;
+	font-size:18px;	
+	line-height: 70px;
+	padding:20px 30px;
+	background:#b1059d;
+	border:1px solid #fff;
+	text-decoration:none;
+	font-weight: bold;
+}
+
+.download:hover {
+	background:#f4c246;
+}
+
+.logout {
+	color:#fff;
+	font-size:18px;	
+	line-height: 40px;
+	padding:10px 20px;
+	background:#666;
+	border:1px solid #fff;
+	text-decoration:none;
+	font-weight: bold;
+}
+
+.logout:hover {
+	background:#333;
+}
+
+.left {
+	float:left;
+}
+
+.right {
+	float:right;
+}
+
+input, select.wide {
+	width:200px;
+}
+
+input[type=submit] {
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	-o-appearance:none;
+	color:#fff;
+	font-size:18px;	
+	width:133px;
+	height:47px;
+	border:none;
+	padding:none;
+	background:#b1059d;
+	cursor: pointer;
+	margin-top:20px;	
+	border:1px solid #fff;
+}
+
+input[type=submit]:hover {
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	-o-appearance:none;
+	color:#fff;
+	font-size:18px;	
+	width:133px;
+	height:47px;
+	border:none;
+	padding:none;
+	background:#f4c246;
+	cursor: pointer;
+	margin-top:20px;	
+	border:1px solid #fff;
+}
+
+#signup_footer {
+	margin-top:30px;
+}
+/*==============================
+===  Install Css            ====
+================================ */
+
+
+#install {
+	width: 600px;
+	margin:10px auto;
+	background:#eee;
+	border:1px solid #b1059d;
+}
+
+.innerInstall {
+	border:1px solid #fff;
+	padding:10px 40px 20px;
+}
+
+.innerInstall h1 {
+	font-size:24px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom:20px;
+}
+
+.innerInstall h2 { 
+	font-size: 18px;
+	margin:30px 0;
+}
+
+ol li {
+	list-style: decimal;
+	font-size: 16px;
+	font-weight: bold;
+	padding:10px 0;
+}
+
